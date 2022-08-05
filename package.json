@@ -1,0 +1,13 @@
+{
+  "name": "js_auto6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samotohina E",
+  "dependencies": {
+    "cypress": "^10.4.0"
+  }
+}
