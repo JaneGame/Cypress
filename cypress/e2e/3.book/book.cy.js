@@ -2,6 +2,7 @@ describe('example to-do app', () => {
    beforeEach(() => {
 
     cy.visit('http://localhost:3000/')
+    //cy.viewport(667, 375)
     cy.contains('Log in').click()
     cy.get('#mail').click().type('bropet@mail.ru');
     cy.get('#pass').click().type('123');
@@ -27,7 +28,7 @@ describe('example to-do app', () => {
         
         cy.contains('Add to favorite').click();
         cy.get('h4').click();
-        cy.contains('Гарри Поттер').should('be.visible');
+        cy.contains('123').should('be.visible');
   
       })
 
